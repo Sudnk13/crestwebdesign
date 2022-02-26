@@ -1,0 +1,341 @@
+body {
+    width: 1440px;
+    height: 693px;
+    background: #FFFFFF;
+}
+
+.pf {
+    position: absolute;
+    width: 191px;
+    height: 18px;
+    left: 625px;
+    top: 34px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.dashboard {
+    position: absolute;
+    width: 1000px;
+    height: 42px;
+    top: 69px;
+    /* right: 220px; */
+    bottom: 582px;
+    left: 200px;
+    background: #F5FCFF;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash1 {
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 11px;
+    top: -13;
+    right: 907px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    color: #3C64B1;
+}
+
+.dash2 {
+    position: absolute;
+    width: 172px;
+    height: 18px;
+    left: 93px;
+    top: -12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+.container1 {
+    position: absolute;
+    width: 1000px;
+    height: 546px;
+    top: 130px;
+    right: 220px;
+    bottom: 17px;
+    left: 200px;
+    background: #FFFFFF;
+    border: 1px solid #E2E5E6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.benif {
+    position: absolute;
+    width: 181px;
+    height: 29.1;
+    left: 62.48px;
+    top: 8.81px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+}
+
+#p1 {
+    position: absolute;
+    width: 280px;
+    height: 47px;
+    left: 176px;
+    top: 178px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.7955px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.157657px;
+    color: #000000;
+}
+
+#p2 {
+    position: absolute;
+    width: 280px;
+    height: 47px;
+    left: 432px;
+    top: 178px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.7955px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.157657px;
+    color: #000000;
+}
+
+#p3 {
+    position: absolute;
+    width: 280px;
+    height: 47px;
+    left: 682px;
+    top: 178px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.7955px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.157657px;
+    color: #000000;
+}
+
+.group1 {
+    position: absolute;
+    width: 165.33px;
+    height: 102.04px;
+    left: 173px;
+    top: 56px;
+}
+
+.img1 {
+    Width: 20.11px;
+    Height: 19.75px;
+    position: absolute;
+    left: 385.93px;
+    right: 12.5%;
+    top: 95.96px;
+}
+
+.img2 {
+    Width: 20.11px;
+    Height: 19.75px;
+    position: absolute;
+    left: 637.35px;
+    right: 12.5%;
+    top: 97.42px;
+}
+
+.group2 {
+    position: absolute;
+    width: 180.97px;
+    height: 99.84px;
+    left: 412px;
+    top: 56.91px;
+}
+
+.group3 {
+    position: absolute;
+    width: 154.16px;
+    height: 95.45px;
+    left: 685px;
+    top: 59.63px;
+}
+
+h3 {
+    position: absolute;
+    width: 275px;
+    height: 18px;
+    left: 359px;
+    top: 257px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #1821FF;
+}
+
+.group4 {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 138px;
+    top: 317px;
+}
+
+.para1 {
+    position: absolute;
+    width: 202px;
+    height: 85px;
+    left: 64px;
+    top: 382px;
+    right: 740px;
+    bottom: 79px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    /* or 129% */
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.group5 {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 397px;
+    top: 317px;
+}
+
+.para2 {
+    position: absolute;
+    width: 202px;
+    height: 85px;
+    left: 325px;
+    top: 374px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    letter-spacing: 0.2px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para3 {
+    position: absolute;
+    width: 346.04px;
+    height: 58px;
+    left: 596.96px;
+    top: 388px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #A71E1E;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+
+    position: absolute;
+    width: 230px;
+    height: 35px;
+    left: 748px;
+    top: 491px;
+
+    background: #3C64B1;
+    ;
+    border-radius: 7px;
+}
+
+#text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+}
+
+.chatbot {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 1234px;
+    top: 520px;
+}
