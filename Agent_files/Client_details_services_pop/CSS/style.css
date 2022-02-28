@@ -1,0 +1,339 @@
+body {
+    position: relative;
+    width: 718px;
+    height: 395px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#heading1 {
+    position: absolute;
+    width: 102px;
+    height: 18px;
+    left: 19px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #3C64B1;
+}
+
+#p1 {
+    position: absolute;
+    width: 196px;
+    height: 18px;
+    left: 20px;
+    top: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height, or 180% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#p2 {
+    position: absolute;
+    width: 99px;
+    height: 18px;
+    left: 481px;
+    top: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #0CBC8B;
+}
+
+#p3 {
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 589px;
+    top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height, or 180% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 7px;
+}
+
+#p4 {
+    position: absolute;
+    width: 24px;
+    height: 18px;
+    left: 631px;
+    top: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height, or 180% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 7px;
+}
+
+#logo1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 665.67px;
+    top: 34.75px;
+}
+
+#logo2 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 682px;
+    top: 6px;
+}
+
+.container {
+    position: absolute;
+    width: 680px;
+    height: 284px;
+    left: 18px;
+    top: 53px;
+    background: #EEEEEE;
+    border-radius: 7px;
+}
+
+#heading2 {
+    position: absolute;
+    width: 95px;
+    height: 18px;
+    left: 17px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#para1 {
+    position: absolute;
+    width: 647px;
+    height: 57px;
+    left: 17px;
+    top: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 180% */
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#heading3 {
+    position: absolute;
+    width: 114px;
+    height: 18px;
+    left: 17px;
+    top: 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.container1 {
+    position: absolute;
+    width: 639px;
+    height: 77px;
+    left: 33px;
+    top: 110px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#p5 {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    left: 14px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#p6 {
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    left: 116px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height, or 180% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#para2 {
+    position: absolute;
+    width: 589px;
+    height: 44px;
+    left: 46px;
+    top: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 180% */
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.container2 {
+    position: absolute;
+    width: 639px;
+    height: 77px;
+    left: 33px;
+    top: 192px;
+    background: #EFFDFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#p7 {
+    position: absolute;
+    width: 56px;
+    height: 18px;
+    left: 18px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#p8 {
+    position: absolute;
+    width: 55px;
+    height: 18px;
+    left: 88px;
+    top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height, or 180% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#para3 {
+    position: absolute;
+    width: 589px;
+    height: 44px;
+    left: 46px;
+    top: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    /* or 180% */
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+#btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 21px;
+    position: absolute;
+    width: 278px;
+    height: 33px;
+    left: 400px;
+    top: 295px;
+    background: #3C64B1;
+    border-radius: 7px;
+    border-style: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
