@@ -1,6 +1,9 @@
 body {
     width: 1440px;
-    height: 2330px;
+    height: 2839px;
+    left: 3px;
+    top: 0px;
+    background: #F6F5F3;
 }
 
 /* Container 1 ........*/
@@ -8,21 +11,24 @@ body {
 .container1 {
     position: absolute;
     width: 717px;
-    height: 594px;
+    height: 613px;
     left: 2px;
-    background: rgba(222, 235, 239, 0.8);
+    top: 0px;
+    background: rgba(252, 253, 254, 0.45);
 }
 
 .c1-text2 {
     position: absolute;
+    width: 270px;
+    height: 89.46px;
     left: 255px;
-    top: 43px;
+    top: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
+    font-size: 28px;
+    text-align: left;
+    line-height: 42px;
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
@@ -33,56 +39,54 @@ body {
     position: absolute;
     width: 308px;
     height: 179.67px;
-    left: 256px;
-    top: 129px;
-    background: #C4C4C4;
+    left: 255px;
+    top: 124px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 }
 
 .c1-img1 {
     position: absolute;
-    width: 29.86px;
-    height: 28.95px;
-    left: 138.6px;
-    top: 74.95px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    width: 87.82px;
+    height: 117.24px;
+    left: 111px;
+    top: 31px;
+}
+
+.c1-img2 {
+    position: absolute;
+    width: 24px;
+    height: 30.89px;
+    left: 142.88px;
+    top: 89.69px;
+    border-radius: 0.881334px;
 }
 
 .c1-btn1 {
     position: absolute;
-    width: 105px;
-    height: 29px;
-    left: 574px;
-    top: 280px;
-    background: #367CFF;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* padding: 7px 20px; */
-    border-style: none;
-
+    width: 107px;
+    height: 22.37px;
+    left: 341px;
+    top: 327.7px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height, or 129% */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    color: #3C64B1;
+
 }
 
 .c1-text3 {
     position: absolute;
     width: 181px;
-    height: 21px;
-    left: 350px;
-    top: 331px;
+    height: 22.37px;
+    left: 307px;
+    top: 367.1px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -98,9 +102,9 @@ body {
 .c1-para {
     position: absolute;
     width: 431px;
-    height: 158px;
-    left: 191px;
-    top: 375px;
+    height: 65px;
+    left: 195px;
+    top: 404px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -121,13 +125,13 @@ body {
     width: 105px;
     left: 187px;
     top: 542px;
-    background: #FF0F74;
+    background: #3C64B1;
     border-radius: 4px;
     border-style: none;
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
@@ -147,13 +151,13 @@ body {
     width: 154px;
     left: 472px;
     top: 542px;
-    background: #7B35B3;
+    background: #27575A;
     border-radius: 4px;
     border-style: none;
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
@@ -166,63 +170,81 @@ body {
 
 /* Container 2 ........*/
 
-.container2 {
+.text1 {
     position: absolute;
-    width: 720px;
-    height: 594px;
-    left: 719px;
-    background: #FFFFFF;
-}
-
-.c2-text1 {
-    position: absolute;
-    width: 248px;
-    height: 28px;
-    left: 27px;
-    top: 35px;
+    width: 426px;
+    height: 84px;
+    left: 746px;
+    top: 0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 28px;
+    line-height: 42px;
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
     color: #000000;
 }
 
-.c2-text2 {
+.p1 {
     position: absolute;
-    width: 182px;
-    height: 21px;
-    left: 30px;
-    top: 75px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height */
+    height: 44.73px;
+    left: 748px;
+    top: 154.65px;
+    font-family: Robto;
+    font-style: norma;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    color: #000000;
+    color: #27575A;
+    opacity: 0.05;
 }
 
-.c2-img1 {
+.p2 {
     position: absolute;
-    width: 315px;
-    height: 193px;
-    left: 149px;
-    top: 138px;
+    width: 155px;
+    height: 44.73px;
+    left: 748px;
+    top: 203.83px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #27575A;
+}
+
+.p3 {
+    position: absolute;
+    width: 133px;
+    height: 44.73px;
+    left: 748px;
+    top: 252.76px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #1511DF;
+    opacity: 0.05;
 }
 
 #search {
     position: absolute;
-    width: 473px;
-    height: 40px;
-    left: 16px;
-    top: 375px;
+    height: 42.60px;
+    width: 474px;
+    left: 728px;
+    top: 402px;
     /* Light / White */
     background: #FFFFFF;
     border: 1px solid #8FAAEE;
@@ -230,151 +252,29 @@ body {
     border-radius: 7px;
 }
 
-.placeholder {
-    position: absolute;
-    left: 32px;
-    top: 375px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 18px;
-    /* identical to box height, or 180% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #625E5E;
-}
-
-.c2-btn1 {
+.c2-btn4 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 7px 20px;
     position: absolute;
-    width: 99px;
-    height: 40px;
-    left: 403px;
-    top: 375px;
-    background: #0CBC8B;
+    width: 97px;
+    height: 42.6px;
+    left: 1105px;
+    right: 16.53%;
+    top: 402px;
+    background: #3C64B1;
     border-radius: 0px 7px 7px 0px;
     border-style: none;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height, or 129% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
 }
 
-.block1 {
+.placeholder {
     position: absolute;
-    width: 233px;
-    height: 121px;
-    left: 19px;
-    top: 450px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 8px;
-}
-
-.c2-box1 {
-    position: absolute;
-    width: 233px;
-    height: 31px;
-    left: 0px;
-    top: 0px;
-    background: rgba(32, 209, 248, 0.13);
-    border-radius: 8px 8px 0px 0px;
-}
-
-.c2-text3 {
-    position: absolute;
-    width: 80px;
-    height: 18px;
-    left: 19px;
-    top: -5px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 18px;
-    /* identical to box height, or 129% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #202123;
-}
-
-.c2-text4 {
-    position: absolute;
-    width: 189px;
-    height: 28px;
-    left: 19px;
-    top: 37px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    /* or 150% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #0CBC8B;
-}
-
-.star-logo1 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 19px;
-    top: 80.06px;
-}
-
-.star-logo2 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 35px;
-    top: 80.06px;
-}
-
-.star-logo3 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 51px;
-    top: 80.06px;
-}
-
-.star-logo4 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 67px;
-    top: 80.06px;
-}
-
-.star-logo5 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 83px;
-    top: 80.06px;
-}
-
-.c2-text5 {
-    position: absolute;
-    width: 104px;
-    height: 28px;
-    left: 19px;
-    top: 82px;
+    width: 366px;
+    height: 19.17px;
+    left: 744px;
+    top: 403.72px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -384,285 +284,155 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    color: #929292;
 }
 
-.c2-btn2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* padding: 7px 20px; */
+.box1 {
     position: absolute;
-    width: 83px;
-    height: 23px;
-    right: 8px;
-    bottom: 5px;
-    background: #7572F7;
-    border-radius: 4px;
-    border-style: none;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    /* identical to box height, or 150% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
-}
-
-.block2 {
-    position: absolute;
-    width: 233px;
-    height: 121px;
-    left: 269px;
-    top: 450px;
+    height: 83.07px;
+    width: 151px;
+    left: 731px;
+    top: 472px;
+    border-radius: 8px;
     background: #FFFFFF;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
 }
 
-.c2-box2 {
+.p-text1 {
     position: absolute;
-    width: 233px;
-    height: 31px;
-    left: 0px;
-    top: 0px;
-    background: rgba(32, 209, 248, 0.13);
-    border-radius: 8px 8px 0px 0px;
-}
-
-.c2-text6 {
-    position: absolute;
-    width: 80px;
+    width: 79px;
     height: 18px;
-    left: 19px;
-    top: -5px;
+    left: 26px;
+    top: 4px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 300;
+    font-weight: normal;
     font-size: 14px;
     line-height: 18px;
     /* identical to box height, or 129% */
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    color: #202123;
+    color: #3C64B1;
 }
 
-.c2-text7 {
+.box2 {
     position: absolute;
-    width: 189px;
-    height: 28px;
-    left: 19px;
-    top: 37px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    /* or 150% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #0CBC8B;
+    height: 83.07px;
+    width: 151px;
+    left: 891px;
+    top: 472px;
+    border-radius: 8px;
+    background: #7386AB;
+    border-radius: 8px;
 }
 
-.star-logo6 {
+.p-text2 {
     position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 19px;
-    top: 80.06px;
-}
-
-.star-logo7 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 35px;
-    top: 80.06px;
-}
-
-.star-logo8 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 51px;
-    top: 80.06px;
-}
-
-.star-logo9 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 67px;
-    top: 80.06px;
-}
-
-.star-logo10 {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    left: 83px;
-    top: 80.06px;
-}
-
-.view {
-    position: absolute;
-    width: 46px;
+    width: 79px;
     height: 18px;
-    left: 188px;
-    top: 60px;
+    left: 26px;
+    top: 4px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
-    /* identical to box height, or 150% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #367CFF;
-}
-
-.c2-text8 {
-    position: absolute;
-    width: 104px;
-    height: 28px;
-    left: 19px;
-    top: 82px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 18px;
-    /* or 180% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #929292;
-}
-
-.c2-btn3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* padding: 7px 20px; */
-    position: absolute;
-    width: 83px;
-    height: 23px;
-    right: 8px;
-    bottom: 5px;
-    background: #7572F7;
-    border-radius: 4px;
-    border-style: none;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 18px;
-    /* identical to box height, or 150% */
+    /* identical to box height, or 129% */
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
     color: #FFFFFF;
 }
 
-.c2-text9 {
+.box3 {
     position: absolute;
-    left: 552px;
-    top: 403px;
+    height: 83.07px;
+    width: 151px;
+    left: 1051px;
+    top: 472px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.p-text3 {
+    position: absolute;
+    width: 79px;
+    height: 18px;
+    left: 26px;
+    top: 4px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 18px;
-    /* identical to box height, or 150% */
+    /* identical to box height, or 129% */
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-    color: #000000;
+    color: #3C64B1;
 }
 
-.c2-img2 {
-    position: absolute;
-    width: 81px;
-    height: 81px;
-    left: 548px;
-    top: 432px;
-}
-
-/* Container 3 ....... */
+/* .........Container3......... */
 
 .container3 {
     position: absolute;
     width: 1438px;
-    height: 561px;
+    height: 626px;
     left: 1px;
-    top: 628px;
-    background: #F7F7F7;
+    top: 592px;
+    background: #FFFFFF;
 }
 
-.c3-text {
+.c3-heading {
     position: absolute;
     width: 920px;
-    left: calc(50% - 920px/2);
+    height: 40px;
+    left: 259px;
     top: 0px;
-    bottom: 40px;
-    /* H3 - bold 32 (40, 0.1px) */
-    font-family: Mulish;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
+    font-weight: 300;
+    font-size: 36px;
     line-height: 40px;
-    /* identical to box height, or 125% */
+    /* identical to box height, or 111% */
     text-align: center;
     letter-spacing: 0.1px;
-    color: #7572F6;
+    color: #000000;
 }
 
 .c3-img1 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 357px;
-    top: 131px;
+    width: 80px;
+    height: 80px;
+    left: 341px;
+    top: 135px;
 }
 
-.c3-text1 {
+.c3-p1 {
     position: absolute;
     width: 313px;
     height: 24px;
     left: 220px;
-    top: 195px;
-    /* H6 - bold 18 (24. 0.1px) */
-    font-family: Mulish;
+    top: 222px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: 0.1px;
-    /* Light / Black */
-    color: #373F41;
+    color: #41529F;
 }
 
 .c3-para1 {
     position: absolute;
     width: 313px;
-    height: 69px;
+    height: 262px;
     left: 220px;
-    top: 231px;
-    /* Body 2 - regular 14 (20, 0.2px) */
-    font-family: Mulish;
+    top: 261px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -676,39 +446,36 @@ body {
 
 .c3-img2 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: calc(50% - 40px/2 + 0.5px);
-    top: 131px;
+    width: 80px;
+    height: 80px;
+    left: 687px;
+    top: 135px;
 }
 
-.c3-text2 {
+.c3-p2 {
     position: absolute;
     width: 313px;
     height: 24px;
     left: 563px;
-    top: 195px;
-    /* H6 - bold 18 (24. 0.1px) */
-    font-family: Mulish;
+    top: 222px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: 0.1px;
-    /* Light / Black */
-    color: #373F41;
+    color: #41529F;
 }
 
 .c3-para2 {
     position: absolute;
     width: 313px;
-    height: 69px;
+    height: 262px;
     left: 563px;
-    top: 231px;
-    /* Body 2 - regular 14 (20, 0.2px) */
-    font-family: Mulish;
+    top: 261px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -722,39 +489,36 @@ body {
 
 .c3-img3 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 1043px;
-    top: 131px;
+    width: 80px;
+    height: 80px;
+    left: 1029px;
+    top: 135px;
 }
 
-.c3-text3 {
+.c3-p3 {
     position: absolute;
     width: 313px;
     height: 24px;
     left: 906px;
-    top: 195px;
-    /* H6 - bold 18 (24. 0.1px) */
-    font-family: Mulish;
+    top: 222px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: 0.1px;
-    /* Light / Black */
-    color: #373F41;
+    color: #41529F;
 }
 
 .c3-para3 {
     position: absolute;
     width: 313px;
-    height: 69px;
+    height: 262px;
     left: 906px;
-    top: 231px;
-    /* Body 2 - regular 14 (20, 0.2px) */
-    font-family: Mulish;
+    top: 261px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -768,39 +532,36 @@ body {
 
 .c3-img4 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 357px;
-    top: 344px;
+    width: 80px;
+    height: 80px;
+    left: 341px;
+    top: 368px;
 }
 
-.c3-text4 {
+.c3-p4 {
     position: absolute;
     width: 313px;
     height: 24px;
     left: 220px;
-    top: 408px;
-    /* H6 - bold 18 (24. 0.1px) */
-    font-family: Mulish;
+    top: 460px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: 0.1px;
-    /* Light / Black */
-    color: #373F41;
+    color: #41529F;
 }
 
 .c3-para4 {
     position: absolute;
     width: 313px;
-    height: 69px;
+    height: 262px;
     left: 220px;
-    top: 444px;
-    /* Body 2 - regular 14 (20, 0.2px) */
-    font-family: Mulish;
+    top: 500px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -814,39 +575,36 @@ body {
 
 .c3-img5 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 700px;
-    top: 344px;
+    width: 80px;
+    height: 80px;
+    left: 686px;
+    top: 366px;
 }
 
-.c3-text5 {
+.c3-p5 {
     position: absolute;
     width: 313px;
     height: 24px;
     left: 563px;
-    top: 408px;
-    /* H6 - bold 18 (24. 0.1px) */
-    font-family: Mulish;
+    top: 460px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: 0.1px;
-    /* Light / Black */
-    color: #373F41;
+    color: #41529F;
 }
 
 .c3-para5 {
     position: absolute;
     width: 313px;
-    height: 69px;
+    height: 262px;
     left: 563px;
-    top: 444px;
-    /* Body 2 - regular 14 (20, 0.2px) */
-    font-family: Mulish;
+    top: 500px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -860,39 +618,36 @@ body {
 
 .c3-img6 {
     position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 1043px;
-    top: 344px;
+    width: 80px;
+    height: 80px;
+    left: 1030px;
+    top: 366px;
 }
 
-.c3-text6 {
+.c3-p6 {
     position: absolute;
     width: 313px;
     height: 24px;
     left: 906px;
-    top: 408px;
-    /* H6 - bold 18 (24. 0.1px) */
-    font-family: Mulish;
+    top: 460px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 24px;
-    /* identical to box height, or 133% */
+    /* identical to box height, or 100% */
     text-align: center;
     letter-spacing: 0.1px;
-    /* Light / Black */
-    color: #373F41;
+    color: #41529F;
 }
 
 .c3-para6 {
     position: absolute;
     width: 313px;
-    height: 69px;
+    height: 262px;
     left: 906px;
-    top: 444px;
-    /* Body 2 - regular 14 (20, 0.2px) */
-    font-family: Mulish;
+    top: 500px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -904,164 +659,230 @@ body {
     color: #373F41;
 }
 
-/* Container 4........ */
+/* ..........CONTAINER4........... */
 
 .container4 {
     position: absolute;
     width: 1438px;
-    height: 462px;
+    height: 647px;
     left: 1px;
-    top: 1189px;
+    top: 1218px;
+    background: #F9F9F9;
 }
 
 .c4-heading {
     position: absolute;
-    width: 920px;
-    left: calc(50% - 572px/2);
+    width: 989px;
+    left: 227px;
     top: 0px;
-    bottom: 0px;
-    /* H3 - bold 32 (40, 0.1px) */
-    font-family: Mulish;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
+    font-weight: 300;
+    font-size: 36px;
     line-height: 40px;
-    /* identical to box height, or 125% */
+    /* or 111% */
     text-align: center;
     letter-spacing: 0.1px;
-    color: #7572F6;
+    color: #000000;
+}
+
+.img-box {
+    position: absolute;
+    width: 380px;
+    height: 187px;
+    left: 208px;
+    top: 221px;
+    background: #F7F5F5;
+}
+
+.c4-text {
+    position: absolute;
+    width: 48px;
+    height: 22px;
+    left: 147px;
+    top: 52px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #000000;
+}
+
+.c4-circles {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    left: 371px;
+    top: 440px;
+}
+
+.c4-box1 {
+    position: absolute;
+    width: 271px;
+    height: 195px;
+    left: 634px;
+    top: 134px;
+    background: #FFFDFD;
+    border-radius: 12px;
 }
 
 .c4-img1 {
     position: absolute;
-    width: 405px;
-    height: 315px;
-    left: 215px;
-    top: 74px;
-}
-
-.c4-img2 {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 644px;
-    top: 113px;
+    height: 36px;
+    width: 39.99px;
+    left: 11px;
+    top: 8px;
+    border-radius: 0px;
 }
 
 .c4-para1 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 644px;
-    top: 161px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 243;
+    height: 111px;
+    left: 8px;
+    right: 12px;
+    top: 33px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
-.c4-img3 {
+.c4-box2 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 929px;
-    top: 113px;
+    width: 271px;
+    height: 195px;
+    left: 917px;
+    top: 134px;
+    background: #FBFCFF;
+    border-radius: 12px;
+}
+
+.c4-img2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
 }
 
 .c4-para2 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 929px;
-    top: 161px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 238;
+    height: 110px;
+    left: 8px;
+    right: 12px;
+    top: 43px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
-.c4-img4 {
+.c4-box3 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 644px;
-    top: 258px;
+    width: 271px;
+    height: 195px;
+    left: 633px;
+    top: 337px;
+    background: #FFFDFD;
+    border-radius: 12px;
+}
+
+.c4-img3 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 11px;
+    top: 13px;
 }
 
 .c4-para3 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 644px;
-    top: 296px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 255;
+    height: 120px;
+    left: 8px;
+    right: 12px;
+    top: 53px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
-.c4-img5 {
+.c4-box4 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 929px;
-    top: 258px;
+    width: 271px;
+    height: 195px;
+    left: 916px;
+    top: 337px;
+    background: #FFFDFD;
+    border-radius: 12px;
+}
+
+.c4-img4 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 11px;
+    top: 13px;
+    border-radius: 0px;
 }
 
 .c4-para4 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 929px;
-    top: 296px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    height: 119px;
+    left: 8px;
+    right: 13px;
+    top: 51px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
 .c4-btn {
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding: 7px 30px; */
-    position: absolute;
+    padding: 7px 30px;
     width: 262px;
-    height: 39px;
-    left: 922px;
-    top: 399px;
-    background: #7572F7;
+    height: 50px;
+    left: 918px;
+    top: 546px;
+    background: #3C64B1;
     border-radius: 4px;
     border-style: none;
 
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     line-height: 18px;
     /* identical to box height, or 100% */
@@ -1071,165 +892,229 @@ body {
     color: #FFFFFF;
 }
 
-/* Container 5........ */
+/* ......CONTAINER5....... */
 
 .container5 {
     position: absolute;
     width: 1438px;
-    height: 462px;
-    left: 1px;
-    top: 1651px;
-    background: #FBF8F8;
+    height: 733px;
+    left: 0px;
+    top: 1865px;
+    background: #F1F1F1;
 }
 
 .c5-heading {
     position: absolute;
-    width: 920px;
-    left: calc(50% - 572px/2);
+    width: 989px;
+    left: 227px;
     top: 0px;
-    bottom: 0px;
-    /* H3 - bold 32 (40, 0.1px) */
-    font-family: Mulish;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
+    font-weight: 300;
+    font-size: 36px;
     line-height: 40px;
-    /* identical to box height, or 125% */
+    /* or 111% */
     text-align: center;
     letter-spacing: 0.1px;
-    color: #7572F6;
+    color: #000000;
+}
+
+.c5-img-box {
+    position: absolute;
+    width: 380px;
+    height: 187px;
+    left: 212px;
+    top: 221px;
+    background: #F7F5F5;
+}
+
+.c5-text {
+    position: absolute;
+    width: 48px;
+    height: 22px;
+    left: 147px;
+    top: 52px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #000000;
+}
+
+.c5-circles {
+    position: absolute;
+    width: 53px;
+    height: 13px;
+    left: 375px;
+    top: 440px;
+}
+
+.c5-box1 {
+    position: absolute;
+    width: 271px;
+    height: 227px;
+    left: 636px;
+    top: 134px;
+    background: #FFFDFD;
+    border-radius: 12px;
 }
 
 .c5-img1 {
     position: absolute;
-    width: 405px;
-    height: 315px;
-    left: 215px;
-    top: 74px;
-}
-
-.c5-img2 {
-    position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 644px;
-    top: 113px;
+    height: 48px;
+    width: 48px;
+    left: 8px;
+    top: 11px;
+    border-radius: 0px;
 }
 
 .c5-para1 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 644px;
-    top: 161px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 243;
+    height: 111px;
+    left: 8px;
+    right: 12px;
+    top: 53px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
-.c5-img3 {
+.c5-box2 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 929px;
-    top: 113px;
+    width: 271px;
+    height: 227px;
+    left: 917px;
+    top: 134px;
+    background: #FFFDFD;
+    border-radius: 12px;
+}
+
+.c5-img2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 11.6px;
+    top: 11px;
 }
 
 .c5-para2 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 929px;
-    top: 161px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 238;
+    height: 110px;
+    left: 8px;
+    right: 12px;
+    top: 53px;
+    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
-.c5-img4 {
+.c5-box3 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 644px;
-    top: 258px;
+    width: 271px;
+    height: 227px;
+    left: 633px;
+    top: 376px;
+    background: #FFFDFD;
+    border-radius: 12px;
+}
+
+.c5-img3 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 11px;
+    top: 13px;
 }
 
 .c5-para3 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 644px;
-    top: 296px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 255;
+    height: 120px;
+    left: 8px;
+    top: 53px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    line-height: 20px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
-.c5-img5 {
+.c5-box4 {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 929px;
-    top: 258px;
+    width: 271px;
+    height: 227px;
+    left: 921px;
+    top: 376px;
+    background: #FFFDFD;
+    border-radius: 12px;
+}
+
+.c5-img4 {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    left: 13px;
+    top: 11px;
+    border-radius: 0px;
 }
 
 .c5-para4 {
     position: absolute;
-    width: 255px;
-    height: 66px;
-    left: 929px;
-    top: 296px;
-    /* Body 1 - regular 16 (22, 0.3px) */
-    font-family: Mulish;
+    width: 250px;
+    height: 120px;
+    left: 11px;
+    right: 13px;
+    top: 51px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    /* or 137% */
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 122% */
     letter-spacing: 0.3px;
-    /* Light / Gray dark */
-    color: #737B7D;
+    /* Gray 1 */
+    color: #333333;
 }
 
 .c5-btn {
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* padding: 7px 30px; */
-    position: absolute;
+    padding: 7px 30px;
     width: 262px;
-    height: 39px;
-    left: 922px;
-    top: 399px;
-    background: #7572F7;
+    height: 50px;
+    left: 918px;
+    top: 632px;
+    background: #88A5A7;
     border-radius: 4px;
     border-style: none;
-
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     line-height: 18px;
     /* identical to box height, or 100% */
@@ -1239,17 +1124,19 @@ body {
     color: #FFFFFF;
 }
 
-/* Container6 ......... */
+
+/* ......CONTAINER6...... */
 
 .container6 {
     position: absolute;
     width: 1438px;
     height: 213px;
-    left: 1px;
-    top: 2115px;
+    left: 2px;
+    top: 2597px;
+    background: #F9F8F6;
 }
 
-.c6-img1 {
+.c6-logo1 {
     position: absolute;
     width: 109px;
     height: 61.4px;
@@ -1257,7 +1144,7 @@ body {
     top: 77px;
 }
 
-.c6-img2 {
+.c6-logo2 {
     position: absolute;
     width: 90.75px;
     height: 58.42px;
@@ -1265,7 +1152,7 @@ body {
     top: 79px;
 }
 
-.c6-img3 {
+.c6-logo3 {
     position: absolute;
     width: 53.22px;
     height: 74.44px;
@@ -1273,7 +1160,7 @@ body {
     top: 71px;
 }
 
-.c6-img4 {
+.c6-logo4 {
     position: absolute;
     width: 63.67px;
     height: 63.67px;
@@ -1281,7 +1168,7 @@ body {
     top: 76px;
 }
 
-.c6-img5 {
+.c6-logo5 {
     position: absolute;
     width: 104.68px;
     height: 92.67px;
@@ -1289,25 +1176,10 @@ body {
     top: 61px;
 }
 
-.c6-img6 {
+.c6-logo6 {
     position: absolute;
     width: 41.7px;
     height: 62.33px;
     left: 1176px;
     top: 77px;
-}
-
-.c6-text {
-    position: absolute;
-    width: 130px;
-    height: 14px;
-    left: 654px;
-    top: 188px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    /* identical to box height */
-    color: #000000;
 }
