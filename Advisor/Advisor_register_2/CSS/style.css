@@ -29,7 +29,7 @@ body {
 
 #text1 {
     position: absolute;
-    width: 198px;
+    width: 216px;
     height: 18px;
     left: 65px;
     top: -5px;
@@ -568,10 +568,10 @@ body {
 
 #p5 {
     position: absolute;
-    width: 106px;
+    width: 217px;
     height: 18px;
     left: 20px;
-    top: 0px;
+    top: -2px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
