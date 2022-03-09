@@ -499,6 +499,7 @@ body {
     top: 617px;
     background: #3C64B1;
     border-radius: 7px;
+    border-style: none;
 }
 
 #text {
