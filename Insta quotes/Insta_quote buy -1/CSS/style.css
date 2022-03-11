@@ -1,0 +1,318 @@
+body {
+    width: 1440px;
+    height: 880px;
+    background: #F5F5F5;
+}
+
+.p {
+    position: absolute;
+    width: 163px;
+    height: 18px;
+    left: 639px;
+    top: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.dashboard {
+    position: absolute;
+    width: 1000px;
+    height: 42px;
+    left: 220px;
+    top: 68px;
+    background: #F5FCFF;
+    border-radius: 7px;
+}
+
+.db1 {
+    position: absolute;
+    width: 82px;
+    height: 18px;
+    left: 11px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #3C64B1;
+}
+
+.db2 {
+    position: absolute;
+    width: 112px;
+    height: 18px;
+    left: 93px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #3C64B1;
+}
+
+.db3 {
+    position: absolute;
+    width: 186px;
+    height: 18px;
+    left: 208px;
+    top: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.container {
+    position: absolute;
+    width: 1000px;
+    height: 732px;
+    left: 220px;
+    top: 121px;
+    /* Light / White */
+    background: #FFFFFF;
+    /* Light / Divider */
+    border: 1px solid #E2E5E6;
+    border-radius: 8px;
+}
+
+.container1 {
+    position: absolute;
+    height: 591px;
+    width: 935px;
+    left: 31px;
+    top: 28px;
+    background: #FFFFFF;
+    /* Shadow 1 */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+
+.sign-logo {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    left: 251px;
+    top: 28px;
+}
+
+.message {
+    position: absolute;
+    width: 296px;
+    height: 52px;
+    left: 320px;
+    top: 28px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 45px;
+    /* or 188% */
+    text-align: center;
+    /* Dark/Dark 3 */
+    color: #4F4F4F;
+}
+
+.para {
+    position: absolute;
+    width: 568px;
+    height: 50px;
+    left: 162px;
+    top: 136px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.para1 {
+    position: absolute;
+    width: 568px;
+    height: 28px;
+    left: 162px;
+    top: 183px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    /* or 100% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.text1 {
+    position: absolute;
+    width: 148px;
+    height: 16px;
+    left: 62.18px;
+    top: 232px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.box1 {
+    position: absolute;
+    width: 815px;
+    height: 36px;
+    left: 62px;
+    top: 263px;
+    /* Light / White */
+    background: #FFFFFF;
+    border: 1px solid #8FAAEE;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.text2 {
+    position: absolute;
+    width: 148px;
+    height: 16px;
+    left: 62.18px;
+    top: 309px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.box2 {
+    position: absolute;
+    width: 815px;
+    height: 36px;
+    left: 62px;
+    top: 340px;
+    /* Light / White */
+    background: #FFFFFF;
+    border: 1px solid #8FAAEE;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.text3 {
+    position: absolute;
+    width: 148px;
+    height: 16px;
+    left: 62.18px;
+    top: 386px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.box3 {
+    position: absolute;
+    width: 815px;
+    height: 36px;
+    left: 62px;
+    top: 417px;
+    /* Light / White */
+    background: #FFFFFF;
+    border: 1px solid #8FAAEE;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10.0449px 17.5787px;
+    position: absolute;
+    width: 113.16px;
+    height: 46.04px;
+    left: 763px;
+    top: 475px;
+    background: #7572F6;
+    border-radius: 5.85955px;
+    border-style: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20.0899px;
+    line-height: 15px;
+    /* or 75% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.167416px;
+    color: #FFFFFF;
+}
+
+.chatbot {
+    position: absolute;
+    height: 18px;
+    width: 75px;
+    left: 1245px;
+    top: 402px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.img3 {
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    left: 1236px;
+    top: 439px;
+}
