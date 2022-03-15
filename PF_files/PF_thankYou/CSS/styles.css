@@ -1,9 +1,10 @@
 body {
     width: 1440px;
     height: 833px;
-    background: #FFFFFF;
+    background: #F5F5F5;
 }
-#pf{
+
+#pf {
     position: absolute;
     width: 296px;
     height: 18px;
@@ -30,7 +31,7 @@ body {
     bottom: 727px;
     left: 220px;
     right: 220px;
-    background: #F5FCFF;
+    background: #EBEBEB;
     border-radius: 7px;
     display: flex;
     align-items: center;
@@ -104,13 +105,13 @@ body {
     letter-spacing: 0.2px;
 }
 
-#ty{
+#ty {
     position: absolute;
     left: -12px;
     top: 185px;
 }
 
-#p-bar{
+#p-bar {
     position: absolute;
     width: 501px;
     height: 24px;
@@ -118,7 +119,7 @@ body {
     top: 344px;
 }
 
-.para{
+.para {
     position: absolute;
     width: 531px;
     height: 91px;
